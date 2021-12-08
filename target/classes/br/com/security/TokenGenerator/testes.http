@@ -1,0 +1,13 @@
+POST - http://localhost:8080/TokenGenerator/GerarToken
+
+Content-Type: application/json
+{
+    "usuario": "lnovais",
+    "email": "lucas.nds@hotmail.com",
+    "codPerfil": 1
+}
+
+
+
+GET - http://localhost:8080/TokenGenerator/DescompactarToken/eyJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoibG5vdmFpcyIsImVtYWlsIjoibHVjYXMubmRzQGhvdG1haWwuY29tIiwiY29kUGVyZmlsIjowLCJzdWIiOiJUb2tlbkdlbmVyYXRvciIsImp0aSI6IjdjMjZlMzIxLTA0MTAtNDFhMC04MWE2LWNhYTNlNGQxYTgxZSIsImlhdCI6MTYzOTU3MTAxMiwiZXhwIjoxNjM5NTcxMDEyfQ.sUpidz76fuEUY_vxpD0mtD_DnOxIBuaaZoSdpfvQVMo
+Content-Type: application/json
